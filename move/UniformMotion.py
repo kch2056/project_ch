@@ -8,8 +8,8 @@ SCREEN_HEIGHT = 340
 xpos = 0
 ypos = SCREEN_HEIGHT
 
-xspeed = 0.001 * SCREEN_WIDTH
-yspeed = -0.001 * SCREEN_HEIGHT
+xspeed = 0.0001 * SCREEN_WIDTH
+yspeed = -0.0001 * SCREEN_HEIGHT
 
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 
@@ -24,6 +24,6 @@ while run:
     xpos = xpos + xspeed
     ypos = ypos + yspeed
 
-pygame.draw.circle(screen, (255, 255, 255), (xpos, ypos), 60)
+    pygame.draw.circle(screen, (255, 255, 255), (xpos, ypos), 60)
 
-pygame.display.update()
+    pygame.display.update()

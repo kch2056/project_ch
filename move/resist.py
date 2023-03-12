@@ -27,6 +27,6 @@ while run:
     yspeed = yspeed + gravity
     ypos = ypos + yspeed
 
-pygame.draw.circle(screen, (255, 255, 255), (xpos, ypos), 60)
+    pygame.draw.circle(screen, (255, 255, 255), (xpos, ypos), 60)
 
-pygame.display.update()
+    pygame.display.update()
